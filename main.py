@@ -6,7 +6,7 @@ import streamlit as st
 
 chat_model = ChatOpenAI()
 
-st.title('인공지능 시인')
+st.title('진수의 인공지능 시인')
 
 content = st.text_input("시의 주제를 제시해 주세요.")
 
